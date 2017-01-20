@@ -12,6 +12,13 @@
 		2C86C38D1E31BBDF00C70749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C38B1E31BBDF00C70749 /* Main.storyboard */; };
 		2C86C38F1E31BBDF00C70749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C38E1E31BBDF00C70749 /* Assets.xcassets */; };
 		2C86C3921E31BBDF00C70749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C3901E31BBDF00C70749 /* LaunchScreen.storyboard */; };
+		2C86C3A01E31BC9000C70749 /* bob.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C3991E31BC9000C70749 /* bob.png */; };
+		2C86C3A11E31BC9000C70749 /* bob2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C39A1E31BC9000C70749 /* bob2.png */; };
+		2C86C3A21E31BC9000C70749 /* dora.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C39B1E31BC9000C70749 /* dora.png */; };
+		2C86C3A31E31BC9000C70749 /* dora2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C39C1E31BC9000C70749 /* dora2.png */; };
+		2C86C3A41E31BC9000C70749 /* dora3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C39D1E31BC9000C70749 /* dora3.png */; };
+		2C86C3A51E31BC9000C70749 /* nobi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C39E1E31BC9000C70749 /* nobi.png */; };
+		2C86C3A61E31BC9000C70749 /* otukutun.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C39F1E31BC9000C70749 /* otukutun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		2C86C38E1E31BBDF00C70749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C86C3911E31BBDF00C70749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C86C3931E31BBDF00C70749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C86C3991E31BC9000C70749 /* bob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bob.png; sourceTree = "<group>"; };
+		2C86C39A1E31BC9000C70749 /* bob2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bob2.png; sourceTree = "<group>"; };
+		2C86C39B1E31BC9000C70749 /* dora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dora.png; sourceTree = "<group>"; };
+		2C86C39C1E31BC9000C70749 /* dora2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dora2.png; sourceTree = "<group>"; };
+		2C86C39D1E31BC9000C70749 /* dora3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dora3.png; sourceTree = "<group>"; };
+		2C86C39E1E31BC9000C70749 /* nobi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nobi.png; sourceTree = "<group>"; };
+		2C86C39F1E31BC9000C70749 /* otukutun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otukutun.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				2C86C38E1E31BBDF00C70749 /* Assets.xcassets */,
 				2C86C3901E31BBDF00C70749 /* LaunchScreen.storyboard */,
 				2C86C3931E31BBDF00C70749 /* Info.plist */,
+				2C86C3991E31BC9000C70749 /* bob.png */,
+				2C86C39A1E31BC9000C70749 /* bob2.png */,
+				2C86C39B1E31BC9000C70749 /* dora.png */,
+				2C86C39C1E31BC9000C70749 /* dora2.png */,
+				2C86C39D1E31BC9000C70749 /* dora3.png */,
+				2C86C39E1E31BC9000C70749 /* nobi.png */,
+				2C86C39F1E31BC9000C70749 /* otukutun.png */,
 			);
 			path = CollectionViewSample;
 			sourceTree = "<group>";
@@ -124,9 +145,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C86C3A01E31BC9000C70749 /* bob.png in Resources */,
+				2C86C3A11E31BC9000C70749 /* bob2.png in Resources */,
+				2C86C3A31E31BC9000C70749 /* dora2.png in Resources */,
+				2C86C3A61E31BC9000C70749 /* otukutun.png in Resources */,
+				2C86C3A51E31BC9000C70749 /* nobi.png in Resources */,
 				2C86C3921E31BBDF00C70749 /* LaunchScreen.storyboard in Resources */,
 				2C86C38F1E31BBDF00C70749 /* Assets.xcassets in Resources */,
+				2C86C3A21E31BC9000C70749 /* dora.png in Resources */,
 				2C86C38D1E31BBDF00C70749 /* Main.storyboard in Resources */,
+				2C86C3A41E31BC9000C70749 /* dora3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

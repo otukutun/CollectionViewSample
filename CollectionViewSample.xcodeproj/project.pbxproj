@@ -19,6 +19,8 @@
 		2C86C3A41E31BC9000C70749 /* dora3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C39D1E31BC9000C70749 /* dora3.png */; };
 		2C86C3A51E31BC9000C70749 /* nobi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C39E1E31BC9000C70749 /* nobi.png */; };
 		2C86C3A61E31BC9000C70749 /* otukutun.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C39F1E31BC9000C70749 /* otukutun.png */; };
+		2C86C3AB1E31C60D00C70749 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C86C3A91E31C60D00C70749 /* ImageCollectionViewCell.swift */; };
+		2C86C3AC1E31C60D00C70749 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C3AA1E31C60D00C70749 /* ImageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		2C86C39D1E31BC9000C70749 /* dora3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dora3.png; sourceTree = "<group>"; };
 		2C86C39E1E31BC9000C70749 /* nobi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nobi.png; sourceTree = "<group>"; };
 		2C86C39F1E31BC9000C70749 /* otukutun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otukutun.png; sourceTree = "<group>"; };
+		2C86C3A91E31C60D00C70749 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewCell.swift; path = ../ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C86C3AA1E31C60D00C70749 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageCollectionViewCell.xib; path = ../ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 		2C86C3861E31BBDF00C70749 /* CollectionViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				2C86C3A91E31C60D00C70749 /* ImageCollectionViewCell.swift */,
+				2C86C3AA1E31C60D00C70749 /* ImageCollectionViewCell.xib */,
 				2C86C3871E31BBDF00C70749 /* AppDelegate.swift */,
 				2C86C3891E31BBDF00C70749 /* ViewController.swift */,
 				2C86C38B1E31BBDF00C70749 /* Main.storyboard */,
@@ -147,6 +153,7 @@
 			files = (
 				2C86C3A01E31BC9000C70749 /* bob.png in Resources */,
 				2C86C3A11E31BC9000C70749 /* bob2.png in Resources */,
+				2C86C3AC1E31C60D00C70749 /* ImageCollectionViewCell.xib in Resources */,
 				2C86C3A31E31BC9000C70749 /* dora2.png in Resources */,
 				2C86C3A61E31BC9000C70749 /* otukutun.png in Resources */,
 				2C86C3A51E31BC9000C70749 /* nobi.png in Resources */,
@@ -165,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C86C3AB1E31C60D00C70749 /* ImageCollectionViewCell.swift in Sources */,
 				2C86C38A1E31BBDF00C70749 /* ViewController.swift in Sources */,
 				2C86C3881E31BBDF00C70749 /* AppDelegate.swift in Sources */,
 			);

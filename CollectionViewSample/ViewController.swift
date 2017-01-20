@@ -17,6 +17,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         collectionView.delegate = self
         collectionView.dataSource = self
+        let nib = UINib(nibName: "ImageCollectionViewCell", bundle: nil)
+        collectionView.register(nib, forCellWithReuseIdentifier: "ImageCell")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -30,12 +32,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let collectionView = collectionView.dequeueReusableCell(withReuseIdentifier: "TestCell", for: indexPath) as UICollectionViewCell
-        collectionView.backgroundColor = UIColor(red: CGFloat(drand48()),
+        let collectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCell", for: indexPath) as! ImageCollectionViewCell
+        collectionViewCell.backgroundColor = UIColor(red: CGFloat(drand48()),
                                        green: CGFloat(drand48()),
                                        blue: CGFloat(drand48()),
                                        alpha: 1.0)
-        return collectionView
+        collectionViewCell.setImage(imageList[indexPath.row])
+        return collectionViewCell
     }
 }
 
